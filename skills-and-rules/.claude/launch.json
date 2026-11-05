@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "dr-om-hf", "runtimeExecutable": "node", "runtimeArgs": ["../.claude/dev.mjs", "dr-om-hf"], "port": 3007 }
+  ]
+}

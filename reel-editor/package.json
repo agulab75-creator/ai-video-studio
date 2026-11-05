@@ -1,0 +1,39 @@
+{
+  "name": "reel-editor",
+  "version": "1.0.0",
+  "description": "Talking-head reel editor: Ali Abdaal layout logic, client brand, driven by edit.json",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/bundler": "^4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/media": "4.0.529",
+    "@remotion/noise": "4.0.529",
+    "@remotion/paths": "4.0.529",
+    "@remotion/renderer": "^4.0.529",
+    "@remotion/zod-types": "4.0.529",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.529",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.529",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio --port=3006",
+    "render": "remotion render",
+    "still": "remotion still",
+    "lint": "eslint src && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
